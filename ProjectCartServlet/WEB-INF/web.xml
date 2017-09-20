@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
+    version="2.4">
+      <!-- Servlet examples--> 
+	  
+	
+	<servlet>
+        <servlet-name>First Example</servlet-name>
+        <servlet-class>Cart_view</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>First Example</servlet-name>
+        <url-pattern>/Cart_view</url-pattern>
+    </servlet-mapping>
+
+	<servlet>
+        <servlet-name>Second Example</servlet-name>
+        <servlet-class>Cart</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Second Example</servlet-name>
+        <url-pattern>/Cart</url-pattern>
+    </servlet-mapping>
+	
+	
+	
+</web-app>
